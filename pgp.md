@@ -16,7 +16,7 @@ Navigating to **File > New**, we're going to create a new PGP key.
 
 After entering the key's name and email address, select key options. (Unless you have a compelling reason to, I recommend leaving the comment field blank.)
 
-[Creating a PGP keypair.](http://i.imgur.com/kT5ssxi.png)
+![Creating a PGP keypair.](http://i.imgur.com/kT5ssxi.png)
 
 Selecting RSA encryption is a good choice. 2048 is generally the smallest key you can securely use, and we recommend bumping that up to 4096. 
 
@@ -30,14 +30,14 @@ Then, the key will generate and you'll see the new key pair in the GnuPG list. I
 
 Once you've created a PGP keypair, encrypting a file just involves right-clicking the file and selecting _Encrypt_.
 
-[Encrypting a file on Tails.](http://i.imgur.com/j04K822.png) 
+![Encrypting a file on Tails.](http://i.imgur.com/j04K822.png) 
 
 From here, you'll select the key you want to encrypt the file to. If you encrypt it to your own public key, this adds another layer of security to Tails and also allows you to back up the file on another storage device. 
 
 This creates a second file, named the same as the original but ending in _.pgp_. This is the encrypted file.
 
-[Two files on the desktop.](http://i.imgur.com/5eNGinS.png)
+![Two files on the desktop.](http://i.imgur.com/5eNGinS.png)
 
 Double-clicking the file prompts you to enter your PGP passphrase In this example, I encrypted the file to myself. Had I encrypted it with someone else's public key, they would need their private key to decrypt it. 
 
-[Decryption.](http://i.imgur.com/0YYYIzM.png)
+![Decryption.](http://i.imgur.com/0YYYIzM.png)
